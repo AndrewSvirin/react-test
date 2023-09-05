@@ -1,9 +1,9 @@
 import React from 'react';  
-import Modal from './modal';
+import ModalInformation from './modal';
 
 
 
-function Header()
+function HeaderInformation()
 {
     let buttonReg = false
 
@@ -39,11 +39,11 @@ function Header()
                 </div>
             </div>
 
-            <Modal />
+            <ModalInformation />
         </nav>
 
         
     )
 }
 
-export default Header
+export default HeaderInformation

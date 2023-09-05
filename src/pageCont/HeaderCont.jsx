@@ -1,9 +1,9 @@
 import React from 'react';  
-import Modal from './modal';
+import ModalCont from './modalCont';
 
 
 
-function Header()
+function HeaderCont()
 {
     let buttonReg = false
 
@@ -22,7 +22,7 @@ function Header()
                 <div className="collapse navbar-collapse" id="mynavbar">
                 <ul className="navbar-nav me-auto">
                     <li className="nav-item">
-                    <a className="nav-link" href="cont.html">Link</a>
+                    <a className="nav-link" href="javascript:void(0)">Link</a>
                     </li>
                     <li className="nav-item">
                     <a className="nav-link" href="javascript:void(0)">Link</a>
@@ -39,11 +39,11 @@ function Header()
                 </div>
             </div>
 
-            <Modal />
+            <ModalCont />
         </nav>
 
         
     )
 }
 
-export default Header
+export default HeaderCont
