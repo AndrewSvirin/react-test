@@ -22,13 +22,13 @@ function Header()
                 <div className="collapse navbar-collapse" id="mynavbar">
                 <ul className="navbar-nav me-auto">
                     <li className="nav-item">
-                    <a className="nav-link" href="cont.html">Link</a>
+                    <a className="nav-link" href="/">Главная</a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="javascript:void(0)">Link</a>
+                    <a className="nav-link" href="/about">О нас</a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="javascript:void(0)">Link</a>
+                    <a className="nav-link" href="/contact">Контакты</a>
                     </li>
                 </ul>
                 <form className="d-flex">

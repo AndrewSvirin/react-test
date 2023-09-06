@@ -1,5 +1,5 @@
 import React from 'react';  
-import ModalInformation from './modal';
+import ModalInformation from './modalInformation';
 
 
 
