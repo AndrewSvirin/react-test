@@ -4,7 +4,9 @@ import React from 'react';
 
 function Modal()
 {
-    const [name, setName] = useState("");
+    const [login, setLogin] = useState("");
+    const [pass, setPass] = useState("");
+
 
     return (
         <div class="modal" id="myModal">
@@ -18,11 +20,19 @@ function Modal()
 
                 <div class="modal-body">
                 <form>
+                    {/* поле логина */}
                     <label>Enter your name:
                         <input
                         type="text" 
-                        value={name}
-                        onChange={(e) => setName(e.target.value)}
+                        value={login}
+                        onChange={(e) => setLogin(e.target.value)}
+                        />
+                    </label>
+                    <label>Enter your name:
+                        <input
+                        type="password" 
+                        value={pass}
+                        onChange={(e) => setPass(e.target.value)}
                         />
                     </label>
                     <div><input className="btn btn-primary" type="submit" value="Зарегистрироваться" /></div>
