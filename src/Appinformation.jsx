@@ -1,5 +1,5 @@
 import React from 'react';       
-import HeaderInformation from './Inform/HeaderInformation';
+import Header from './components/Header';
 import NewsInformation from './Inform/NewsInformation';
 import FooteInformation from './Inform/FooterInformation';
 
@@ -8,7 +8,7 @@ function AppInformation()
 {
     return (
         <>
-            <HeaderInformation />
+            <Header />
             <NewsInformation />
             <FooteInformation />
         </>
