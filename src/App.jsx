@@ -3,6 +3,7 @@ import Header from './components/Header';
 import News from './components/News';
 import FooteFu from './components/Footer';
 
+// Главная страница
 
 function App()
 {

@@ -1,10 +1,9 @@
 import React from 'react'; 
 
+ // Функция создания Footer для страниц
 function FooteFu()
 {
-
     return (
-
         <footer className="footer">
             <div className="container text-center">
                 <a href="#"><i className="fa fa-facebook"></i></a>

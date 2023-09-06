@@ -1,14 +1,15 @@
 import { useState } from 'react';
 import React from 'react';  
 
-
+// Функция для модального окна регистрации 
 function Modal()
 {
     const [login, setLogin] = useState("");
     const [pass, setPass] = useState("");
-
-
+ 
     return (
+
+        // Форма регистрации с использованием хуки
         <div class="modal" id="myModal">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -28,7 +29,8 @@ function Modal()
                         onChange={(e) => setLogin(e.target.value)}
                         />
                     </label>
-                    <label>Enter your name:
+                    {/* поле пароля */}
+                    <label>Enter your password:
                         <input
                         type="password" 
                         value={pass}

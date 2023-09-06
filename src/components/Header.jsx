@@ -1,9 +1,14 @@
 import React from 'react';  
 import Modal from './modal';
 
+// Функция создания header
+
 function Header()
 {
     return (
+
+        // Меню навигации по сайту с использованием роутера
+        
         <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
             <div className="container-fluid">
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">

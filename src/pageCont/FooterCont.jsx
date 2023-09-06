@@ -1,5 +1,7 @@
 import React from 'react'; 
 
+ // Функция создания Footer для страниц
+
 function FooteCont()
 {
 
