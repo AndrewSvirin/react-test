@@ -1,8 +1,6 @@
 import React from 'react';  
 import Modal from './modal';
 
-
-
 function Header()
 {
     let buttonReg = false
@@ -14,8 +12,7 @@ function Header()
     return (
         <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
             <div className="container-fluid">
-                <a className="navbar-brand" href="javascript:void(0)">
-                    <img src='rhr-logo.png' /></a>
+                <a className="navbar-brand" href="javascript:void(0)"></a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
                 <span className="navbar-toggler-icon"></span>
                 </button>
